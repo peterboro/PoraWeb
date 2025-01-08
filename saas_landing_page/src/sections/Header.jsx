@@ -18,8 +18,6 @@ const Header = () => {
         <a className="lg:hidden flex-1 cursor-pointer z-2">
           <img src="/images/xora.svg" width={115} height={55} alt="logo" />
         </a>
-
-
         <div className={clsx('w-full max-lg:fixed max-lg:top-0 max-lg:left-0 max-lg:w-full max-lg:bg-s2 max-lg:opacity-0',
         isOpen ? "max-lg:opacity-100" : "max-lg:pointer-events-none"
         )}>
